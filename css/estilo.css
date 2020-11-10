@@ -1,0 +1,129 @@
+*{
+    color:black;
+}
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    background: #ccc;
+    color: white;
+}
+
+.top{
+    background-image: url(../imagem/banner.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 500px;
+    border-top: solid 1px #1a1a58; 
+}
+.nav1{
+    list-style: none;
+    letter-spacing: 4px;
+    text-align:center;
+    padding: 7px;
+    
+}
+.top .nav1 li{
+    display: inline-block;
+    font-style: none;
+    
+    
+}
+.top .nav1 li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: solid 3px black;
+    margin-left: 10px;
+    background: rgba(16, 15, 16, 0.3);
+    
+ }
+.top .nav1 li a:hover{
+    color:#363538;
+  }
+
+.free{
+    text-align:center;
+}
+.free p{
+    font-size: 40px;
+    border-bottom: solid 2px black;
+    background: rgba(16, 15, 16, 0.3);
+    display: inline-block;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color:black;
+    text-shadow: 2px 2px 2px #656161;
+}
+main{
+    width:80%;
+    margin:auto;
+}
+
+.content-section{
+    overflow: auto;
+    background: white;
+    margin-top: 25px;
+    padding: 15px;
+  
+}
+.card{
+    float:left;
+    width: 32%;
+    box-sizing: border-box;
+}
+.card1, .card2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+}
+main section div p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    background: #818181;
+    margin: 0;
+}
+
+.content-header{
+    background: #818181;
+    padding-left: 15px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-top: 1px;
+    border-bottom: solid 2px black;
+}
+
+.resumo{
+    line-height: 2;
+    letter-spacing: 1px;
+    text-indent: 18px;
+}
+    
+.rodape{
+    height: 60px;
+    font-size: 14px;
+    text-align:center;
+    text-shadow: 2px 2px 3px black;
+    background: #6b6c68;
+    line-height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
